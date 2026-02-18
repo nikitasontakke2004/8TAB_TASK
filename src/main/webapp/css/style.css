@@ -1,0 +1,68 @@
+/* =========================================
+   COMMON & TAB 1 STYLING (Dropdowns)
+   ========================================= */
+
+/* Native HTML Select Styling */
+.custom-html-select {
+    width: 300px !important;
+    height: 38px !important;
+    padding: 5px 12px !important;
+    border: 1px solid #157fcc !important;
+    border-radius: 4px !important;
+    font-size: 13px !important;
+    background-color: #ffffff !important;
+    color: #333 !important;
+    outline: none !important;
+}
+
+/* Tab Header Text Styling */
+.tab-header-text {
+    color: #157fcc !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+    margin-bottom: 12px !important;
+    display: block !important;
+}
+
+/* Professional Divider */
+.custom-divider {
+    margin: 25px 0 !important;
+    border: 0 !important;
+    border-top: 1px solid #dae1e8 !important;
+}
+
+/* =========================================
+   TAB 4 & 6 STYLING (Form & Buttons)
+   ========================================= */
+
+/* Form Panel Background */
+.x-panel.custom-form-panel, .x-panel.custom-form-panel .x-panel-body {
+    background-color: #f8f9fa !important;
+    border-bottom: 3px solid #157fcc !important;
+}
+
+.custom-field .x-form-item-label-default {
+    font-weight: bold !important;
+    color: #34495e !important;
+}
+
+/* Updated Button Hover Effect */
+.x-btn.custom-save-btn {
+    background-color: #157fcc !important;
+    border: none !important;
+}
+
+.x-btn.custom-save-btn:hover {
+    background-color: #1266a3 !important; /* Slightly darker on hover */
+}
+
+/* =========================================
+   NEW: JSON PANEL STYLING (For Tab 6)
+   ========================================= */
+
+/* This makes the <pre> block inside your JSON panel look like a real code editor */
+#liveJsonPanel-body pre {
+    scrollbar-width: thin;
+    scrollbar-color: #157fcc #1e1e1e;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+}
